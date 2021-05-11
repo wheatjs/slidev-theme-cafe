@@ -1,0 +1,21 @@
+{
+  "name": "slidev-theme-cafe",
+  "version": "0.0.0",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "scripts": {
+    "dev": "slidev example.md",
+    "build": "slidev build example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.4.0",
+    "@slidev/theme-default": "^0.4.0"
+  },
+  "slidev": {
+    "colorScheme": "dark"
+  }
+}

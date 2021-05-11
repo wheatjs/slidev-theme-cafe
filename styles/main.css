@@ -1,0 +1,12 @@
+::-webkit-scrollbar {
+  background: rgba(0, 0, 0, 0.12);
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-cafe-900
+}
+
+::-webkit-resizer {
+  // background: red;
+  padding: 1rem;
+}
